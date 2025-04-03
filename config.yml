@@ -12,6 +12,9 @@ collections:
         file: "cdn.json"
         fields:
           - { label: "Title", name: "Title", widget: "string" }
-          - { label: "Layout" , name: "Layout", widget: "string" }
-
+          - { label: "Layout" , name: "Layout", widget: "markdown" }
+          - label: "Featured Image"
+            name: "thumbnail"
+            widget: "image"
+            choose_url: true
 
