@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: img
+public_folder: pup
+collections:
+  - name: "information"
+    label: "Information"
+    files:
+      - label: "Blogs"
+        name: "blogs"
+        file: "cdn.json"
+        fields:
+          - { label: "Title", name: "Title", widget: "string" }
+          - { label: "Layout" , name: "Layout", widget: "string" }
+
+
